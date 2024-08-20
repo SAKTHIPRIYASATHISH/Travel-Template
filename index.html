@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Template</title>
+    <style>
+        .body{
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            padding: 0 5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="head">
+            <h1>
+                <span style="color:  #008080;">Adventure</span>
+            </h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>Hotels</li><li>Places to Explore</li><li>Restaurants</li>
+            </ul>
+        </div>
+    </div>
+    <div class="second">
+        <img align="right" src="explore.jpg">
+        <div class="welcome">
+            <p>
+                ADVENTURE IS WORTHWHILE
+            </p>
+        </div>
+        <div class="slogan">
+                <p>
+                    Your Adventure 
+                    Travel Expert in 
+                    the <strong>INDIA</strong>
+                </p>
+        </div>
+        <div class="search">
+            <select>
+                <option disabled selected>Choose</option>
+                <option value="1">Taj Mahal</option>
+                <option value="2">jaipur</option>
+                <option value="3">Kerala Backwaters</option>
+                <option value="4">Varanasi</option>
+                <option value="5">Goa</option>
+                <option value="6">Leh-Ladakh</option>
+            </select>
+            <ion-icon name="caret-down-outline" style="position:relative; margin-left: -35px;"></ion-icon>
+        </div>
+        <div class="button">
+            <button class="explore-button">Explore</button>
+        </div>
+    </div>
+    <div class="desti">
+        <h1>Destinations</h1>
+        <p>A journey is best measured in friends rather than miles.</p>
+    </div>
+    <table class="table" width="80%" align="center" >
+        <tbody>
+            <tr>
+                <td width="25%">
+                    <img src="tajmahal.jpeg" width="400px" height="300px">
+                    <h1>No wonder, it’s a wonder.</h1>
+                    <h2>Taj Mahal</h2>
+                    <p>The Taj Mahal, a symbol of India's rich history and a masterpiece of Mughal architecture, stands majestically on the banks of the Yamuna River in Agra. Built by Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal, this white marble mausoleum is renowned for its stunning symmetry, intricate carvings, and exquisite inlay work.</p>
+                    <button class="readmore">Read More</button>
+                </td>
+                <td width="25%">
+                    <img src="jaipur.jpeg" width="400px" height="300px">
+                    <h1>The Pink City</h1>
+                    <h2>Jaipur</h2>
+                    <p>Jaipur, often referred to as the "Pink City," is a vibrant blend of history and modernity, located in the heart of Rajasthan, India. Known for its majestic forts, opulent palaces, and rich cultural heritage,Jaipur captivates visitors with its architectural wonders like the Amber Fort, Hawa Mahal, and City Palace</p>
+                    <button class="readmore">Read More</button>
+                    </td>    
+                <td width="25%">
+                    <img src="kerala.jpeg" width="400px" height="300px">
+                    <h1>Here for the coconuts</h1>
+                    <h2>Kerala Backwaters</h2>
+                    <p>The Kerala backwaters are a network of tranquil lagoons, lakes, and canals that run parallel to the Arabian Sea coast. They offer a unique blend of natural beauty and cultural richness, with lush green landscapes, swaying coconut trees, and vibrant wildlife.The backwaters are not just a picturesque destination but also a vital part of Kerala.</p>
+                    <button class="readmore">Read More</button>
+                </td>
+            </tr>
+            <tr>
+                <td width="25%">
+                    <img src="varanasi.jpeg" width="400px" height="300px">
+                    <h1>spiritual City</h1>
+                    <h2>Varanasi</h2>
+                    <p>Varanasi, also known as Kashi or Banaras, is one of the oldest continuously inhabited cities in the world and holds immense cultural and religious significance in India. Located on the banks of the River Ganges in Uttar Pradesh, Varanasi is considered the spiritual capital of India, attracting pilgrims and tourists alike. </p>
+                    <button class="readmore">Read More</button>
+                </td>
+                <td width="25%">
+                    <img src="goa.jpeg" width="400px" height="300px">
+                    <h1>High tides and good vibes</h1>
+                    <h2>Goa</h2>
+                    <p>Goa is a beautiful coastal state in India, known for its stunning beaches, vibrant nightlife, and rich cultural heritage. As a former Portuguese colony, Goa's architecture, cuisine, and festivals reflect a unique blend of Indian and Portuguese influences.Goa is a vibrant Indian state known for its stunning beaches and various places.</p>
+                    <button class="readmore">Read More</button>
+                </td>
+                <td width="25%">
+                    <img src="ladakh.jpeg" width="400px" height="300px">
+                    <h1>Leh Ladakh calling!</h1>
+                    <h2>Leh-Ladakh</h2>
+                    <p>Ladakh, often referred to as "The Land of High Passes," is a unique region in northern India, nestled between the Great Himalayas and the Karakoram Range. Known for its stark, breathtaking landscapes, Ladakh offers a captivating blend of snow-capped mountains, high-altitude deserts, and serene blue lakes like Pangong and Tso Moriri. </p>
+                    <button class="readmore">Read More</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="footer" align="center">
+        <h1>Contact Us</h1>
+        <p>Our Sales Team will you out ASAP!</p>
+        <form method="POST">
+            <label>Name</label>
+            <input type="text" required>
+            <label>Your Home Town</label>
+            <input type="text" required>
+            <label>Where would you like to go</label>
+            <select>
+                <option disabled selected>Choose</option>
+                <option value="1">Taj Mahal</option>
+                <option value="2">Jaipur</option>
+                <option value="3">Kerala Backwaters</option>
+                <option value="4">Varanasi</option>
+                <option value="5">Goa</option>
+                <option value="6">Leh-Ladakh</option>
+            </select>
+            <label>Contact Number</label>
+            <input type="text" maxlength="11" required>
+            <br>
+            <button type="submit" class="submit">Submit Interest</button>
+            <br> <br> <br>
+            <footer>&copy; 2024. All rights reserved.</footer>
+        </form>
+    </div>
+</body>
+</html>
